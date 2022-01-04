@@ -1,6 +1,6 @@
 # How to add snippets to Lunarvim
 
-## First example: Let's add existing vscode snippet package
+## First example: Let's add existing VSCode snippet package
 
 1. Clone [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets):
 
@@ -10,7 +10,7 @@ git clone https://github.com/dsznajder/vscode-es7-javascript-react-snippets
 
 In this example we cloned it to `~/.config/lvim/snippets/` but you can store your snippets anywhere you want.
 
-Now I do have `~/.config/lvim/snippets/vscode-es7-javascript-react-snippets/package.json`
+Now we do have `~/.config/lvim/snippets/vscode-es7-javascript-react-snippets/package.json`
 
 2. And we can require package in `config.lua`:
 
@@ -20,6 +20,8 @@ require("luasnip/loaders/from_vscode").load { paths = { "~/.config/lvim/snippets
 
 3. These snippets should work now:
    ![img1](https://github.com/sambergo/add-snippet-examples/blob/main/img/img1.png)
+
+More VSCode snippets in <https://marketplace.visualstudio.com/VSCode>
 
 ## Second example: Let's add custom snippets
 
