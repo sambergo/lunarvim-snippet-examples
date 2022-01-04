@@ -1,6 +1,6 @@
 # How to add snippets to Lunarvim
 
-## First example: Let's add existing snippet package
+## First example: Let's add existing vscode snippet package
 
 1. Clone [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets):
 
