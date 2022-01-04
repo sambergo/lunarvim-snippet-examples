@@ -64,7 +64,11 @@ mkdir ~/.config/lvim/snippets/my-snippets
   },
   "test const function": {
     "prefix": "cftest",
-    "body": ["const ${1:name} = (${2:arguments}) => {", "\treturn ${3}", "}"]
+    "body": [
+      "const ${1:name} = (${2:arguments}) => {",
+      "\t\treturn ${3}",
+      "\t}"
+    ]
   }
 }
 ```
