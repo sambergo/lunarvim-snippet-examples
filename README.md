@@ -19,7 +19,7 @@ require("luasnip/loaders/from_vscode").load { paths = { "~/.config/lvim/snippets
 ```
 
 3. These snippets should work now:
-   ![img1]("https://github.com/sambergo/add-snippet-examples/blob/main/img/img1.png")
+   ![img1](https://github.com/sambergo/add-snippet-examples/blob/main/img/img1.png)
 
 ## Second example: Let's add some custom snippets
 
@@ -96,7 +96,7 @@ require("luasnip/loaders/from_vscode").load { paths = { "~/.config/lvim/snippets
 ```
 
 6. Make sure it works:
-   ![img2]("https://github.com/sambergo/add-snippet-examples/blob/main/img/img2.png")
+   ![img2](https://github.com/sambergo/add-snippet-examples/blob/main/img/img2.png)
 
 If you followed this your `~/.config/lvim/snippets/` should look like:
-![snippets folder]("https://github.com/sambergo/add-snippet-examples/blob/main/img/img3.png")
+![snippets folder](https://github.com/sambergo/add-snippet-examples/blob/main/img/img3.png)
