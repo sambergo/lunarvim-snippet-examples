@@ -2,7 +2,7 @@
 
 ## First example: Let's add existing snippet package
 
-1. Clone [this](https://github.com/dsznajder/vscode-es7-javascript-react-snippets):
+1. Clone [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets):
 
 ```bash
 git clone https://github.com/dsznajder/vscode-es7-javascript-react-snippets
@@ -21,7 +21,7 @@ require("luasnip/loaders/from_vscode").load { paths = { "~/.config/lvim/snippets
 3. These snippets should work now:
    ![img1](https://github.com/sambergo/add-snippet-examples/blob/main/img/img1.png)
 
-## Second example: Let's add some custom snippets
+## Second example: Let's add custom snippets
 
 1. Create folder:
 
@@ -99,4 +99,5 @@ require("luasnip/loaders/from_vscode").load { paths = { "~/.config/lvim/snippets
    ![img2](https://github.com/sambergo/add-snippet-examples/blob/main/img/img2.png)
 
 If you followed this your `~/.config/lvim/snippets/` should look like:
+
 ![snippets folder](https://github.com/sambergo/add-snippet-examples/blob/main/img/img3.png)
